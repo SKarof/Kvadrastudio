@@ -24,15 +24,18 @@ body{
 
 /* MAIN SECTION */
 .main-section{
-    padding: 50px 20px;
+    padding: 2rem;
     background-image: linear-gradient(#333333A6, #333333A6),url(/assets/img/main-section/bg_main.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% auto;
-    
+    background-size: 100% auto; 
+}
+.main-section .main-row{
+    padding: 10rem 0;
 }
 .main-button{
     position: absolute;
+    top: -9rem;
     right: 0%;
     width: 286px;
     height: 286px;
@@ -59,6 +62,11 @@ body{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
   }
 
+/* INFO SECTION */
+.info-section{
+    padding: 6.3rem 0;
+}
+
 /* COMPONENTS */
 .button{
     font-size: 16px;
@@ -68,5 +76,8 @@ body{
 }
 .text-header{
     font-size: 80px;
+}
+.text-subheader{
+    font-size: 55px;
 }
 
