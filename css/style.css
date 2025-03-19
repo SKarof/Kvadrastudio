@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/assets/fonts/ProximaNova-Light.woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+body{
+    font-family: 'ProximaNova';
+}
+/* HEADER */
+.imglogo{
+    height: 3.8rem;
+}
+.header{
+    padding: 20px;
+    font-size: 15px;
+}
+.header p{
+    margin: 0;
+}
+.top-header{
+    gap: 20px;
+}
+
+/* MAIN SECTION */
+.main-section{
+    padding: 50px 20px;
+    background-image: linear-gradient(#333333A6, #333333A6),url(/assets/img/main-section/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    
+}
+.main-button{
+    position: absolute;
+    right: 0%;
+    width: 286px;
+    height: 286px;
+    border-radius: 100%;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background-color: #333333;
+}
+.wrapper-main-button{
+    position: relative;
+    height: 100%;
+}
+.main-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 53px); /* Немного больше, чем кнопка */
+    height: calc(100% + 53px); /* Немного больше, чем кнопка */
+    border: 1px solid white;
+    border-radius: 50%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+  }
+
+/* COMPONENTS */
+.button{
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+.text-header{
+    font-size: 80px;
+}
+
