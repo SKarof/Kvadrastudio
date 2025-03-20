@@ -4,7 +4,12 @@
     font-style: normal;
     font-weight: 300;
 }
+:root {
+    --color-primary: #333333;
+}
+
 body{
+    color: var(--color-primary);
     font-family: 'ProximaNova';
 }
 /* HEADER */
@@ -43,7 +48,7 @@ body{
     border: none;
     font-size: 22px;
     color: white;
-    background-color: #333333;
+    background-color: var(--color-primary);;
 }
 .wrapper-main-button{
     position: relative;
@@ -64,7 +69,20 @@ body{
 
 /* INFO SECTION */
 .info-section{
-    padding: 6.3rem 0;
+    padding: 9rem 0 0 0;
+}
+.info-botom-text{
+    position: absolute;
+    bottom: 100px;
+    left: 57px;
+}
+.bedroom-image{
+    width: 95%;
+}
+.info-schematic-block{
+    position: relative;
+    width: 40%;
+    height: 100%;
 }
 
 /* COMPONENTS */
@@ -72,12 +90,16 @@ body{
     font-size: 16px;
     padding: 10px 25px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid var(--color-primary);
 }
 .text-header{
     font-size: 80px;
 }
 .text-subheader{
     font-size: 55px;
+}
+.vertical-line{
+    background-color: var(--color-primary);
+    height: 100%;
 }
 
