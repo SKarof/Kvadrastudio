@@ -104,6 +104,12 @@ body{
     font-size: 28px;
 }
 
+/* REVIEWS */
+.reviews-secton{
+    padding: 3rem 0;
+    background-image: linear-gradient(#333333A9, #333333A9),url(../assets/img/reviews-section/bg_review.jpg);
+}
+
 /* COMPONENTS */
 .button{
     font-size: 16px;
