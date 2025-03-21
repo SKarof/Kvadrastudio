@@ -12,6 +12,7 @@
 }
 :root {
     --color-primary: #333333;
+    --background-layout: #333333e0;
 }
 body{
     color: var(--color-primary);
@@ -53,7 +54,7 @@ body{
     border: none;
     font-size: 22px;
     color: white;
-    background-color: var(--color-primary);;
+    background-color: var(--color-primary);
 }
 .wrapper-main-button{
     position: relative;
@@ -107,7 +108,9 @@ body{
 /* REVIEWS */
 .reviews-secton{
     padding: 3rem 0;
-    background-image: linear-gradient(#333333A9, #333333A9),url(../assets/img/reviews-section/bg_review.jpg);
+    background-image: linear-gradient(var(--background-layout), var(--background-layout)),url(../assets/img/reviews-section/bg_review.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .review-text{
     font-size: 1.8rem;
