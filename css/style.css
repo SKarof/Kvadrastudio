@@ -110,7 +110,11 @@ body{
     background-image: linear-gradient(#333333A9, #333333A9),url(../assets/img/reviews-section/bg_review.jpg);
 }
 .review-text{
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+.credital-text{
+    color: #C5C5C5;
+    font-size: 1.5rem;
 }
 .slider-button-wrapper{
     background: 0 0;
