@@ -4,6 +4,7 @@
     font-style: normal;
     font-weight: 300;
 }
+
 @font-face {
     font-family: 'AshleyCapitaliSofia';
     src: url('../assets/fonts/ashleycapitalisofia.woff2');
@@ -151,6 +152,18 @@ body{
 .reviews-secton .carousel-indicators .active{
     opacity: 1;
     width: 6rem;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio-section #list-tab .active{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.tabs-group-list{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-primary);
 }
 
 /* COMPONENTS */
