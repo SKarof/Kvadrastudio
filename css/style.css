@@ -142,7 +142,19 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+.reviews-secton .carousel-indicators{
+    position: static;
+    margin: 0;
+}
+.reviews-secton .carousel-indicators [data-bs-target]{
+    height: 0.13rem;
+    width: 2.8rem;
+    margin: 0 0.4rem;
+}
+.reviews-secton .carousel-indicators .active{
+    opacity: 1;
+    width: 6rem;
+}
 
 /* COMPONENTS */
 .button{
