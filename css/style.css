@@ -4,7 +4,18 @@
     font-style: normal;
     font-weight: 300;
 }
-
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../assets/fonts/ProximaNova-Regular.woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../assets/fonts/ProximaNova-Bold.woff2');
+    font-style: normal;
+    font-weight: 700;
+}
 @font-face {
     font-family: 'AshleyCapitaliSofia';
     src: url('../assets/fonts/ashleycapitalisofia.woff2');
@@ -175,12 +186,16 @@ body{
 }
 .text-header{
     font-size: 80px;
+    font-weight: 300;
 }
+
 .text-subheader{
     font-size: 55px;
+    font-weight: 300;
 }
 .text-paragraph{
     font-size: 1.8rem;
+    font-weight: 300;
 }
 .vertical-line{
     background-color: var(--color-primary);
