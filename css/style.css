@@ -112,9 +112,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.review-text{
-    font-size: 1.8rem;
-}
 .credital-text{
     color: #C5C5C5;
     font-size: 1.5rem;
@@ -168,6 +165,9 @@ body{
 }
 .text-subheader{
     font-size: 55px;
+}
+.text-paragraph{
+    font-size: 1.8rem;
 }
 .vertical-line{
     background-color: var(--color-primary);
