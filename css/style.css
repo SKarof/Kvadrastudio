@@ -25,6 +25,7 @@
 :root {
     --color-primary: #333333;
     --background-layout: #333333e0;
+    --disable: #888888
 }
 body{
     color: var(--color-primary);
@@ -176,6 +177,33 @@ body{
     text-decoration: none;
     color: var(--color-primary);
 }
+.projects-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.project-text{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.project-link{
+    width: fit-content;
+    position: relative;
+    color: var(--color-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.project-link::after{
+    content: "";
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    border: 1px solid var(--color-primary);
+}
 
 /* COMPONENTS */
 .button{
@@ -205,5 +233,8 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.disable{
+    color: var(--disable);
 }
 
