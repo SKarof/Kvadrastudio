@@ -264,6 +264,10 @@ body{
     line-height: 100%;
 }
 
+/* INTERIROR PREVIEW SECTION */
+.interior-preview-section{
+    margin-top: 5rem;
+}
 /* COMPONENTS */
 .button{
     font-size: 16px;
