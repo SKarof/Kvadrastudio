@@ -347,8 +347,25 @@
                         <p class="text-paragraph mb-5">Посмотрите 3D тур готового проекта.</p>
                         <div class="position-relative">
                             <img src="assets/img/interior-preview-section/preview-image.jpg" class="w-100 mb-5">
+                            <button type="button" class="fullscreen-button position-absolute top-0 end-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                На весь экран
+                            </button>                           
                         </div>
                         <p class="text-paragraph">Мы с удовольствием сделаем такой тур и для вашего проекта.</p>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mw-100 my-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/interior-preview-section/preview-image.jpg" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
                 </div>
             </div>
