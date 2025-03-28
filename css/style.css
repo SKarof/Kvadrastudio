@@ -266,8 +266,31 @@ body{
 
 /* INTERIROR PREVIEW SECTION */
 .interior-preview-section{
-    margin-top: 5rem;
+    margin-top: 14rem;
 }
+
+/* WHY US SECTION */
+.why-us-section{
+    position: relative;
+    margin-top: 10rem;
+}
+.why-us-section .hall-image{
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    width: 36rem;
+    height: 36rem;
+}
+.why-us-section .schematic-image{
+    position: absolute;
+    left: 8rem;
+    bottom: -4rem;
+    z-index: 1;
+    opacity: 0.8;
+    width: 17rem;
+    height: 18rem;
+}
+
 /* COMPONENTS */
 .button{
     font-size: 16px;
